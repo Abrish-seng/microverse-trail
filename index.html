@@ -2,11 +2,52 @@
 
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title></title>
+
 </head>
 
 <body>
-    <h1>hello world!</h1>
+    <div class="container-fluid">
+
+        <div class="text-center">
+            <h1 id="title">free code camp servey form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+        </div>
+        <form action="" class="mt-50 user">
+            <div class=" form-group ">
+                <label for="user ">Name</label>
+                <input type="text " placeholder="Enter your name " class="form-control ">
+            </div>
+            <div class="form-group ">
+                <label for="email ">Email</label>
+                <input type="text " placeholder="Enter your email " class="form-control ">
+            </div>
+            <div class="form-group ">
+                <label for="age ">Age</label>
+                <input type="number " placeholder="Enter your age " class="form-control ">
+            </div>
+            <div class="form-group ">
+                <label for="dropdown ">Which option best describes your current role? </label>
+                <select>
+                        <option value="select crrent role">select current role </option>
+                        <option value="student">student</option>
+                        <option value="full-time job">full-time job</option>
+                        <option value="full-time learner">full-time learner</option>
+                        <option value="prefer not to say">prefer not to say</option>
+                        <option value="other">other</option>
+                </select>
+                <div>
+                    <label for="">Would you recommend freeCodeCamp to a friend?</label> <br>
+                    <input type="radio" value="Definitly">
+                    <label for="Definitely">Definitely</label><br>
+                    <input type="radio" value="maybe">
+                    <label for="maybe">Maybe</label><br>
+                    <input type="radio" name="not sure" value="not sure">
+                    <label for="other">not sure</label>
+                </div>
+            </div>
+        </form>
 </body>
 
 </html>
